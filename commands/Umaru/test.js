@@ -6,7 +6,7 @@ function test(message,prefix,client){
                 const embed = new Discord.RichEmbed()
             .setColor(0xFF8000)
             .setDescription("J'ai assez travaillé Oni-chan laisse moi jouer")
-            .setImage("https://giphy.com/gifs/christmas-meme-uNf5zeBaofZNC")
+            .setImage("https://i.pinimg.com/originals/ed/70/45/ed70459e10992b043ccc53582aaf83ef.gif")
           
             message.channel.send({embed}); 
     
