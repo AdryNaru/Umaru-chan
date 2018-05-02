@@ -3,12 +3,12 @@ exports.run = (client, message, args) => {
     const Discord = require('discord.js');
     const embed = new Discord.RichEmbed()
     .setTitle("**INVITE**")
-    .setAuthor("Kirie", "https://pa1.narvii.com/5959/525c77e26b72512b02dfffa25bf0d7602dd04759_hq.gif")
-    .setColor(0x00ffff)
-    .setDescription("que que que tu veux veux m'invité ?")
-    .setThumbnail("https://pa1.narvii.com/6286/a93f765e19d27337eb6e3315372f183b4c35ba27_hq.gif")
+    .setAuthor("Umaru-chan", "http://st.cdjapan.co.jp/pictures/l/13/10/THCS-60061.jpg")
+    .setColor(0xFF8000)
+    .setDescription("Oni-chan clique sur invite pour pouvoir m'invité sur ton serveur")
+    .setThumbnail("http://thehypedgeek.com/wp-content/uploads/2015/03/UmaruChan.jpg")
     .setTimestamp()
-    .setURL("https://discordapp.com/api/oauth2/authorize?client_id=440036538110312448&permissions=8&scope=bot")
+    .setURL("https://discordapp.com/api/oauth2/authorize?client_id=424196836128063488&permissions=8&scope=bot")
   
     message.channel.send({embed}).catch(console.error);
     console.log
