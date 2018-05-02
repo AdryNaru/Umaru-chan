@@ -15,7 +15,7 @@ exports.run = (client, message, args) => {
    "``help``, ``invite``, ``kick``,``say``", true)
   
   .addBlankField(true)
-  message.deleted();
+  message.delete();
   message.channel.send({embed}).catch(console.error);
     console.log
 }
