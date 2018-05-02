@@ -12,7 +12,7 @@ exports.run = (client, message, args) => {
   .setTimestamp()
   .setURL("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMuui9P39guDu-WBmqpNd8DwnNloZ71REK2vOThm7b7dEEu-JFmQ")
   .addField(":computer: **UMARU**",
-   "``help``, ``invite``, ``kick``,``say``, ``repos``", true)
+   "``help``, ``invite``, ``kick``,``say``, ``repos``,``cola``", true)
   
   .addBlankField(true)
   message.delete();
