@@ -4,7 +4,7 @@ exports.run = (client, message, args) => {
     .setColor(0xFF8000)
     .setDescription("Bonjour Adry-chan")
     .setImage("https://i.imgur.com/2CrEDAD.gif")
-    message.deleted();
+    message.delete();
     message.channel.send({embed}).catch(console.error);
     console.log
 }
