@@ -46,6 +46,8 @@ client.on("message", (message) => {
         console.log
 
         } catch (err) {
+            message.delete();
+            message.channel.send("Je ne connait pas cette commande Oni-chan")
             console.error(err);
             console.log
         }
